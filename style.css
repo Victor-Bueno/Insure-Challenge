@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-    margin: 20px;
+    margin: 33px;
     color: hsl(273, 4%, 51%);
     text-decoration: none;
 }
@@ -33,8 +33,9 @@ nav a:hover {
 
 nav a.esp {
     color: hsl(270, 9%, 17%);
-    padding: 10px 20px;
+    padding: 13px 33px;
     border: solid 2px hsl(270, 9%, 17%);
+    margin: 0;
 }
 
 nav a.esp:hover {
@@ -49,6 +50,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 h1, h2 {
@@ -95,12 +97,13 @@ div.main h1 {
 }
 
 div.main button {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
     cursor: pointer;
     background-color: hsl(256, 26%, 20%);
     border: solid 1px #fff;
+    padding: 13px 33px;
     color: #fff;
-    padding: 10px 20px;
-    margin-top: 15px;
 }
 
 div.main button:hover {
@@ -168,4 +171,47 @@ div.features div h2{
 
 div.features div p{
     color: hsl(273, 4%, 51%);
+}
+
+div.find-out {
+    margin: 160px 125px;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    height: 250px;
+}
+
+div.find-out h1{
+    margin: 70px;
+    margin-left: 110px;
+    width: 490px;
+    font-size: 55px;
+    line-height: 1;
+    display: inline-block;
+}
+
+div.find-out button{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px #fff;
+    padding: 13px 33px;
+    color: #fff;
+    float: right;
+    margin-top: 105px;
+    margin-right: 110px;
+    position: relative;
+    z-index: 2;
+}
+
+div.find-out button:hover {
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+    transition: background 0.3s;
+}
+
+svg.p-hww{
+    position: absolute;
+    right: 125px;
+    top: 1602px;
 }
