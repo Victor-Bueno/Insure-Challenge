@@ -48,6 +48,7 @@ body {
     font-weight: 400, 700;
     padding: 0px;
     margin: 0px;
+    background-color: #fff;
 }
 
 h1, h2 {
@@ -58,6 +59,7 @@ h1, h2 {
 p {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    line-height: 1.6;
 }
 
 div.main {
@@ -127,4 +129,43 @@ svg.p-right {
 
 svg.p-left {
     margin-top: 430px;
+}
+
+hr.wd {
+    margin-top: 300px;
+    margin-left: 125px;
+    width: 150px;
+    border-top: solid 1px hsl(273, 4%, 51%);
+}
+
+h1.wd {
+    margin-left: 125px;
+    font-size: 70px;
+    color: hsl(270, 9%, 17%);
+}
+
+div.features{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+div.features div{    
+    display: inline-block;
+    width: 350px;
+    font-weight: 400;
+}
+
+div.features div.AP{
+    margin: 0 20px;
+}
+
+div.features div h2{
+    color: hsl(270, 9%, 17%);
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+div.features div p{
+    color: hsl(273, 4%, 51%);
 }
