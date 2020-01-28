@@ -13,6 +13,10 @@ svg.logo {
     z-index: 2;
 }
 
+header svg.hamburguer{
+    display: none;
+}
+
 nav {
     float: right;
     margin-right: 125px;
@@ -90,9 +94,11 @@ div.main {
     height: 600px;
     width: 100%;
     display: inline-block;
+    position: relative;
+    z-index: -2;
 }
 
-div.main div, div.main img {
+div.main div, img.family {
     display: inline-block;
 }
 
@@ -133,9 +139,11 @@ div.main button:hover {
     transition: background 0.3s;
 }
 
-div.main img {
-    float: right;
-    margin-right: 125px;
+img.family {
+    position: absolute;
+    top: 170px;
+    right: 125px;
+    z-index: -1;
 }
 
 svg.p-left, svg.p-right {
@@ -279,7 +287,7 @@ footer div.info div.left-corner {
     margin: 0 85px 0 0;
 }
 
-svg.footer-p{
+svg.footer-p {
     position: absolute;
     top: 2012px;
 }
