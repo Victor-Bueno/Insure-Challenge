@@ -95,7 +95,6 @@ div.main {
     width: 100%;
     display: inline-block;
     position: relative;
-    z-index: -2;
 }
 
 div.main div, img.family {
@@ -115,6 +114,8 @@ div.main div {
     margin-top: 35px;
     margin-left: 125px;
     margin-right: 25px;
+    position: relative;
+    z-index: 4;
 }
 
 div.main h1 {
@@ -131,6 +132,8 @@ div.main button {
     border: solid 1px #fff;
     padding: 13px 33px;
     color: #fff;
+    position: relative;
+    z-index: 5;
 }
 
 div.main button:hover {
@@ -143,16 +146,13 @@ img.family {
     position: absolute;
     top: 170px;
     right: 125px;
-    z-index: -1;
+    z-index: 1;
 }
 
 svg.p-left, svg.p-right {
     position: absolute;
+    z-index: 2;
 } 
-
-svg.p-left, svg.p-right {
-    z-index: 0;
-}
 
 svg.p-right {
     right: -40px;
